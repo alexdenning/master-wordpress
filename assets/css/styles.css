@@ -660,7 +660,7 @@ table {
     opacity: 1; } }
 .container {
   width: 100%;
-  max-width: 50rem;
+  max-width: 54rem;
   margin: 0 auto; }
   .container:after {
     content: "";
@@ -723,18 +723,19 @@ table {
       font-size: 1.75rem;
       line-height: 1.5; }
     .masthead .banner form {
-      margin-bottom: -3.75rem; }
+      margin-bottom: -3.75rem;
+      padding-top: 1.5rem; }
       .masthead .banner form input[type=submit] {
         margin: 0;
         width: 100%; }
 
 .content {
-  padding: 3rem 6rem;
+  padding: 3rem 10%;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.5;
   width: 100%;
-  max-width: 50rem;
+  max-width: 54rem;
   margin: 0 auto;
   clear: both; }
   .content:after {
@@ -742,10 +743,28 @@ table {
     display: block;
     clear: both; }
 
+hr {
+  max-width: 3rem;
+  border-width: 3px;
+  border-color: #E74C3C; }
+
 .lessons {
   list-style-type: none;
   margin: 0;
   padding: 0; }
+  .lessons svg {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    margin-right: 1.5rem;
+    vertical-align: middle;
+    color: #E74C3C;
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-linecap: round; }
+  .lessons li {
+    clear: both;
+    padding: 0.75rem 0; }
 
 footer {
   background: #e6e6e6;

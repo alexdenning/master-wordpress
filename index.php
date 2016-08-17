@@ -58,6 +58,8 @@
 
         </section>
 
+        <hr />
+
         <section class="course-lessons">
 
             <div class="content">
@@ -65,18 +67,41 @@
                 <p>In this free course you’ll learn the skills you need to do everything you want with WordPress yourself, without the need for paid help. The seven lessons will cover:</p>
 
                 <ul class="lessons">
-                    <li><strong>Lesson 1:</strong> How to choose the perfect WordPress theme</li>
-                    <li><strong>Lesson 2:</strong> Get the most from theme support</li>
-                    <li><strong>Lesson 3:</strong> Theme customization basics (+ helpful plugins)</li>
-                    <li><strong>Lesson 4:</strong> Make your site load really quickly</li>
-                    <li><strong>Lesson 5:</strong> Using CDNs for extra speed</li>
-                    <li><strong>Lesson 6:</strong> Integrating email marketing with WordPress</li>
-                    <li><strong>Lesson 7:</strong> Keeping your WordPress site secure</li>
+                    <li>
+                        <?php include( 'assets/svg/eye.svg' ); ?>
+                        <strong>Lesson 1:</strong> How to choose the perfect WordPress theme
+                    </li>
+                    <li>
+                        <?php include( 'assets/svg/message.svg' ); ?>
+                        <strong>Lesson 2:</strong> Get the most from theme support
+                    </li>
+                    <li>
+                        <?php include( 'assets/svg/code.svg' ); ?>
+                        <strong>Lesson 3:</strong> Theme customization basics (+ helpful plugins)
+                    </li>
+                    <li>
+                        <?php include( 'assets/svg/lightning.svg' ); ?>
+                        <strong>Lesson 4:</strong> Make your site load really quickly
+                    </li>
+                    <li>
+                        <?php include( 'assets/svg/photo.svg' ); ?>
+                        <strong>Lesson 5:</strong> Using CDNs for extra speed
+                    </li>
+                    <li>
+                        <?php include( 'assets/svg/mail.svg' ); ?>
+                        <strong>Lesson 6:</strong> Integrating email marketing with WordPress
+                    </li>
+                    <li>
+                        <?php include( 'assets/svg/lock.svg' ); ?>
+                        <strong>Lesson 7:</strong> Keeping your WordPress site secure
+                    </li>
                 </ul>
 
             </div>
 
         </section>
+
+        <hr />
 
         <section class="about-us">
 

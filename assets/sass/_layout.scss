@@ -91,6 +91,7 @@
         form {
 
             margin-bottom: $grid-line-height * -2.5;
+            padding-top: $grid-line-height;
 
             input[type=submit] {
 
@@ -106,10 +107,18 @@
 
 .content {
 
-    padding: ( $grid-line-height * 2 ) ( $grid-gutter * 2 );
+    padding: ( $grid-line-height * 2 ) 10%;
     @include modular-scale( epsilon );
     @include container;
     clear: both;
+
+}
+
+hr {
+
+    max-width: $grid-gutter;
+    border-width: 3px;
+    border-color: $canvas-red;
 
 }
 
@@ -122,6 +131,27 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+
+    svg {
+
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+        margin-right: $grid-gutter / 2;
+        vertical-align: middle;
+        color: $canvas-red;
+        stroke-width: 1px;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+
+    }
+
+    li {
+
+        clear: both;
+        padding: ( $grid-line-height / 2 ) 0;
+
+    }
 
 }
 
