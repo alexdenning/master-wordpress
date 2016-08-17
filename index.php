@@ -11,69 +11,73 @@
 
         <title>Master WordPress</title>
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,900&subset=latin-ext" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:300,700|Playfair+Display:400,700" />
         <link rel="stylesheet" href="assets/css/styles.css" />
 
     </head>
 
     <body>
 
-        <header>
+        <header class="masthead">
 
             <div class="branding">
-                <h1>Master WordPress</h1>
+                <h1>Master<span>WP</span></h1>
+            </div>
+
+
+            <div class="container">
+
+                <div class="banner">
+
+                    <h2>A free seven-day email course to become a <strong>WordPress Master</strong></h2>
+
+                    <p>Learn everything you need to master WordPress, not rely on developers, customize your WordPress theme, integrate marketing, secure your site, and more.</p>
+
+                    <p>Your favourite email address ~ [Get lesson one]</p>
+
+                </div>
+
             </div>
 
         </header>
 
-        <section class="intro">
+        <section class="intro container">
 
             <div class="content">
 
-                A free seven-day email course to
-
-                <h2>Become a WordPress Master</h2>
-
-                <p>Learn everything you need to master WordPress, not rely on developers, customize your WordPress theme, integrate marketing, secure your site, and more.</p>
-
-                <p>Your favourite email address ~ [Get lesson one]</p>
-
-
                 <p>MasterWP is a completely free seven-day email course. We’ll never share your personal information with third parties.</p>
 
-
-                <p>Most WordPress training courses focus on the basics: how to add pages, how to install themes. If you want to do anything more complicated they say hire a developer.</p>
+                <p>Most WordPress training courses focus on the basics: how to add pages, how to install themes. If you want to do anything more complicated they say "hire a developer".</p>
 
                 <p>This is fine, but how about bridging the gap between user and developer?</p>
 
-                <p>We’ve made a course that teaches WordPress users how to Master WordPress.</p>
+                <p><strong>We’ve made a course that teaches WordPress users how to <em>Master WordPress</em>.</strong></p>
 
             </div>
 
         </section>
 
-        <section class="course-lessons">
+        <section class="course-lessons container">
 
             <div class="content">
 
                 <p>In this free course you’ll learn the skills you need to do everything you want with WordPress yourself, without the need for paid help. The seven lessons will cover:</p>
 
                 <ul>
-                    <li><strong>Lesson 1:</strong> how to choose the perfect WordPress theme</li>
-                    <li><strong>Lesson 2:</strong> get the most from theme support</li>
-                    <li><strong>Lesson 3:</strong> theme customization basics (+ helpful plugins)</li>
-                    <li><strong>Lesson 4:</strong> make your site load really quickly</li>
-                    <li><strong>Lesson 5:</strong> using CDNs for extra speed</li>
-                    <li><strong>Lesson 6:</strong> integrating email marketing with WordPress</li>
-                    <li><strong>Lesson 7:</strong> keeping your WordPress site secure</li>
+                    <li><strong>Lesson 1:</strong> How to choose the perfect WordPress theme</li>
+                    <li><strong>Lesson 2:</strong> Get the most from theme support</li>
+                    <li><strong>Lesson 3:</strong> Theme customization basics (+ helpful plugins)</li>
+                    <li><strong>Lesson 4:</strong> Make your site load really quickly</li>
+                    <li><strong>Lesson 5:</strong> Using CDNs for extra speed</li>
+                    <li><strong>Lesson 6:</strong> Integrating email marketing with WordPress</li>
+                    <li><strong>Lesson 7:</strong> Keeping your WordPress site secure</li>
                 </ul>
 
             </div>
 
         </section>
 
-        <section class="about-us">
+        <section class="about-us container">
 
             <div class="content">
 
