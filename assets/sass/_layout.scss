@@ -6,18 +6,33 @@
 
 .masthead {
 
-    background: $canvas-color;
-    margin-bottom: $grid-line-height * 7;
+    padding-bottom: $grid-line-height;
+    position: relative;
+
+    &:before {
+
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 70%;
+        background: $canvas-color;
+        z-index: 0;
+
+    }
 
     .branding {
 
         text-align: center;
         padding: ( $grid-line-height * 2 ) ( $grid-gutter );
-
+        z-index: 1;
+        position: relative;
 
         h1 {
 
             @include modular-scale( gamma );
+            margin-bottom: 0;
 
             span {
 
@@ -27,11 +42,32 @@
 
         }
 
+        img {
+
+            max-width: $grid-gutter * 1.2;
+
+        }
+
     }
 
     .container {
 
-        margin-bottom: $grid-line-height * -5;
+        position: relative;
+        @include clear;
+
+        &:before {
+
+            content: '';
+            top: 0;
+            left: 0;
+            width: 55%;
+            bottom: 0;
+            background: url( ../images/banner-background.jpg ) no-repeat;
+            background-size: cover;
+            position: absolute;
+            z-index: 0;
+
+        }
 
     }
 
@@ -39,14 +75,29 @@
 
         background: $canvas-white;
         padding: ( $grid-line-height * $grid-line-height-multiplier ) $grid-gutter;
-        width: 50%;
+        width: 55%;
         float: right;
+        margin: ( $grid-line-height * 3 ) 0;
         box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+        position: relative;
+        z-index: 1;
 
         h2 {
 
             @include modular-scale( delta );
 
+        }
+
+        form {
+
+            margin-bottom: $grid-line-height * -2.5;
+
+            input[type=submit] {
+
+                margin: 0;
+                width: 100%;
+
+            }
         }
 
     }
@@ -55,5 +106,35 @@
 
 .content {
 
-    padding: ( $grid-line-height * 2 ) 0;
+    padding: ( $grid-line-height * 2 ) ( $grid-gutter * 2 );
+    @include modular-scale( epsilon );
+    @include container;
+    clear: both;
+
+}
+
+.intro {
+
+}
+
+.lessons {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+footer {
+
+    background: $canvas-grey-10;
+    padding-bottom: $grid-line-height * 3;
+
+    .copyright {
+
+        @include post-meta-data;
+        text-align: center;
+
+    }
+
 }

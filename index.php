@@ -21,6 +21,7 @@
         <header class="masthead">
 
             <div class="branding">
+                <img src="assets/images/logo-mark.png" alt="MasterWP Logo" />
                 <h1>Master<span>WP</span></h1>
             </div>
 
@@ -33,7 +34,7 @@
 
                     <p>Learn everything you need to master WordPress, not rely on developers, customize your WordPress theme, integrate marketing, secure your site, and more.</p>
 
-                    <p>Your favourite email address ~ [Get lesson one]</p>
+                    <?php include( 'partials/newsletter.php' ); ?>
 
                 </div>
 
@@ -41,11 +42,11 @@
 
         </header>
 
-        <section class="intro container">
+        <section class="intro">
 
             <div class="content">
 
-                <p>MasterWP is a completely free seven-day email course. We’ll never share your personal information with third parties.</p>
+                <p><strong>MasterWP</strong> is a completely free seven-day email course. We’ll never share your personal information with third parties.</p>
 
                 <p>Most WordPress training courses focus on the basics: how to add pages, how to install themes. If you want to do anything more complicated they say "hire a developer".</p>
 
@@ -57,13 +58,13 @@
 
         </section>
 
-        <section class="course-lessons container">
+        <section class="course-lessons">
 
             <div class="content">
 
                 <p>In this free course you’ll learn the skills you need to do everything you want with WordPress yourself, without the need for paid help. The seven lessons will cover:</p>
 
-                <ul>
+                <ul class="lessons">
                     <li><strong>Lesson 1:</strong> How to choose the perfect WordPress theme</li>
                     <li><strong>Lesson 2:</strong> Get the most from theme support</li>
                     <li><strong>Lesson 3:</strong> Theme customization basics (+ helpful plugins)</li>
@@ -77,11 +78,11 @@
 
         </section>
 
-        <section class="about-us container">
+        <section class="about-us">
 
             <div class="content">
 
-                <h2>About the authors</h2>
+                <h2>About the Authors</h2>
 
                 <p>Hey, I’m Ben! I’m a WordPress theme developer. I built one of the most popular themes on WordPress.com, one of the first “magazine style” themes and co-founded leading WordPress theme shop <a href="https://prothemedesign.com/">Pro Theme Design</a>.</p>
 
@@ -101,7 +102,13 @@
 
                 <p>Still unsure about signing up? Become a WordPress Master is 100% free, there’s literally nothing to lose and you can unsubscribe at any time. Sign up and start the course immediately.</p>
 
-                Your favourite email address ~ [Get lesson one]
+                <?php include( 'partials/newsletter.php' ); ?>
+
+            </div>
+
+            <div class="copyright">
+
+                &copy; 2016 MasterWP - design by <a href="https://prothemedesign.com" rel="nofollow">Pro Theme Design</a>
 
             </div>
 
