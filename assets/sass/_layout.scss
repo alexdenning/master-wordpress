@@ -1,23 +1,59 @@
-header {
+.container {
+
+    @include container;
 
 }
 
-section {
+.masthead {
 
-    padding: 5em;
+    background: $canvas-color;
+    margin-bottom: $grid-line-height * 7;
+
+    .branding {
+
+        text-align: center;
+        padding: ( $grid-line-height * 2 ) ( $grid-gutter );
+
+
+        h1 {
+
+            @include modular-scale( gamma );
+
+            span {
+
+                font-weight: bold;
+
+            }
+
+        }
+
+    }
+
+    .container {
+
+        margin-bottom: $grid-line-height * -5;
+
+    }
+
+    .banner {
+
+        background: $canvas-white;
+        padding: ( $grid-line-height * $grid-line-height-multiplier ) $grid-gutter;
+        width: 50%;
+        float: right;
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+
+        h2 {
+
+            @include modular-scale( delta );
+
+        }
+
+    }
 
 }
 
 .content {
 
-    max-width: 35em;
-    margin: 0 auto;
-
-}
-
-
-footer {
-
-    padding: 5em;
-
+    padding: ( $grid-line-height * 2 ) 0;
 }
