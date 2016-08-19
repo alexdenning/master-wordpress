@@ -33,6 +33,7 @@
 
             @include modular-scale( gamma );
             margin-bottom: 0;
+            display: inline-block;
 
             span {
 
@@ -44,7 +45,10 @@
 
         img {
 
-            max-width: $grid-gutter * 1.2;
+            max-height: 2.5rem;
+            margin-right: $grid-gutter / 2;
+            display: inline-block;
+            vertical-align: sub;
 
         }
 
@@ -123,6 +127,35 @@ hr {
 }
 
 .intro {
+
+}
+
+.about-us {
+
+    @include clear;
+
+    h2 {
+
+        text-align: center;
+        margin-bottom: $grid-line-height * 2;
+
+    }
+
+    .content {
+
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    .person {
+
+        padding-left: 4%;
+        padding-right: 4%;
+        width: 50%;
+        float: left;
+
+    }
 
 }
 
