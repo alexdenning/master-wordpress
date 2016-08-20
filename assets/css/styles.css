@@ -752,21 +752,26 @@ hr {
   border-width: 3px;
   border-color: #E74C3C; }
 
-.about-us:after {
-  content: "";
-  display: block;
-  clear: both; }
-.about-us h2 {
-  text-align: center;
-  margin-bottom: 3rem; }
-.about-us .content {
-  padding-left: 0;
-  padding-right: 0; }
-.about-us .person {
-  padding-left: 4%;
-  padding-right: 4%;
-  width: 50%;
-  float: left; }
+.about-us {
+  padding-top: 3rem; }
+  .about-us h2 {
+    text-align: center;
+    margin-bottom: 3rem; }
+
+.people {
+  background: #fff5e6;
+  position: relative;
+  display: flex; }
+  .people:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .people .person {
+    padding: 3rem 10%;
+    width: 50%;
+    float: left; }
+    .people .person:nth-child(2) {
+      background: #FFEACC; }
 
 .lessons {
   list-style-type: none;
@@ -800,3 +805,31 @@ footer {
     text-align: center; }
     footer .copyright:hover {
       opacity: 1; }
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 100%; } }
+@media only screen and (max-width: 899px) {
+  html {
+    font-size: 95%; }
+
+  .masthead .container {
+    width: auto;
+    margin: 0 3rem;
+    padding: 1.5rem 3rem; }
+    .masthead .container:before {
+      width: 100%; }
+  .masthead .banner {
+    float: none;
+    width: 100%; } }
+@media only screen and (max-width: 782px) {
+  html {
+    font-size: 90%; }
+
+  .people {
+    flex-direction: column; }
+    .people .person {
+      width: 100%; } }
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 85%; } }

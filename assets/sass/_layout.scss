@@ -132,7 +132,7 @@ hr {
 
 .about-us {
 
-    @include clear;
+    padding-top: $grid-line-height * 2;
 
     h2 {
 
@@ -141,19 +141,26 @@ hr {
 
     }
 
-    .content {
+}
 
-        padding-left: 0;
-        padding-right: 0;
+.people {
 
-    }
+    background: lighten( $canvas-color, 5% );
+    position: relative;
+    display: flex;
+    @include clear;
 
     .person {
 
-        padding-left: 4%;
-        padding-right: 4%;
+        padding: ( $grid-line-height * 2 ) 10%;
         width: 50%;
         float: left;
+
+        &:nth-child( 2 ) {
+
+            background: $canvas-color;
+
+        }
 
     }
 

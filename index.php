@@ -105,9 +105,9 @@
 
         <section class="about-us">
 
-            <div class="content">
+            <h2>About the Authors</h2>
 
-                <h2>About the Authors</h2>
+            <div class="people">
 
                 <div class="person">
 
