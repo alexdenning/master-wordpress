@@ -365,7 +365,7 @@ input.settings-input {
   .form-select:hover,
   textarea:hover,
   input.settings-input:hover {
-    border-color: #FFEACC; }
+    border-color: #333333; }
   input[type=text]:focus,
   input[type=password]:focus,
   input[type=email]:focus,
@@ -383,7 +383,7 @@ input.settings-input {
   textarea:focus,
   input.settings-input:focus {
     outline: none;
-    border-color: #FFEACC;
+    border-color: #333333;
     background: #fff;
     color: #1a1a1a; }
   input[type=text]::-webkit-input-placeholder,
@@ -402,7 +402,7 @@ input.settings-input {
   .form-select::-webkit-input-placeholder,
   textarea::-webkit-input-placeholder,
   input.settings-input::-webkit-input-placeholder {
-    color: #666666; }
+    color: #333333; }
   input[type=text]::-moz-placeholder,
   input[type=password]::-moz-placeholder,
   input[type=email]::-moz-placeholder,
@@ -419,7 +419,7 @@ input.settings-input {
   .form-select::-moz-placeholder,
   textarea::-moz-placeholder,
   input.settings-input::-moz-placeholder {
-    color: #666666; }
+    color: #333333; }
   input[type=text]:-ms-input-placeholder,
   input[type=password]:-ms-input-placeholder,
   input[type=email]:-ms-input-placeholder,
@@ -436,7 +436,7 @@ input.settings-input {
   .form-select:-ms-input-placeholder,
   textarea:-ms-input-placeholder,
   input.settings-input:-ms-input-placeholder {
-    color: #666666; }
+    color: #333333; }
   input[type=text]:-moz-placeholder,
   input[type=password]:-moz-placeholder,
   input[type=email]:-moz-placeholder,
@@ -453,7 +453,7 @@ input.settings-input {
   .form-select:-moz-placeholder,
   textarea:-moz-placeholder,
   input.settings-input:-moz-placeholder {
-    color: #666666; }
+    color: #333333; }
   input[type=text]:placeholder,
   input[type=password]:placeholder,
   input[type=email]:placeholder,
@@ -470,7 +470,7 @@ input.settings-input {
   .form-select:placeholder,
   textarea:placeholder,
   input.settings-input:placeholder {
-    color: #666666; }
+    color: #333333; }
 
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
