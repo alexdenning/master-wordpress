@@ -783,6 +783,25 @@ hr {
     float: left; }
     .people .person:nth-child(2) {
       background: #FFEACC; }
+    .people .person strong {
+      font-size: 20px;
+      font-size: 1.25rem;
+      line-height: 1.5;
+      display: block;
+      margin-bottom: 0.75rem;
+      margin-right: -3.75rem;
+      transform: translateX(-3.75rem); }
+      .people .person strong:before {
+        display: inline-block;
+        content: '';
+        border-bottom: 0.2rem solid #333333;
+        width: 3rem;
+        vertical-align: middle;
+        margin-right: 0.75rem; }
+    .people .person img {
+      max-width: 8rem;
+      float: left;
+      margin: -0.75rem 1.5rem 0.75rem -1.5rem; }
 
 .lessons {
   list-style-type: none;
