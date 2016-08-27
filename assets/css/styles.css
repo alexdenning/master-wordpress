@@ -757,11 +757,11 @@ hr {
   z-index: 10;
   position: relative;
   padding: 0 0.75rem;
-  width: 6rem;
+  width: 5em;
   text-align: right; }
 .newsletter input[type=text],
 .newsletter input[type=email] {
-  padding-left: 6rem; }
+  padding-left: 5em; }
 
 .about-us {
   padding-top: 3rem; }
