@@ -92,7 +92,7 @@
 
         }
 
-        form {
+        .newsletter {
 
             margin-bottom: $grid-line-height * -2.5;
             padding-top: $grid-line-height;
@@ -127,6 +127,28 @@ hr {
 }
 
 .intro {
+
+}
+
+.newsletter {
+
+    label {
+
+        margin-bottom: $grid-line-height * -1.7;
+        z-index: 10;
+        position: relative;
+        padding: 0 ( $grid-gutter / 4 );
+        width: $grid-gutter * 2;
+        text-align: right;
+
+    }
+
+    input[type=text],
+    input[type=email] {
+
+        padding-left: $grid-gutter * 2;
+
+    }
 
 }
 
