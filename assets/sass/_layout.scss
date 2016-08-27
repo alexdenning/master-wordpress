@@ -6,7 +6,7 @@
 
 .masthead {
 
-    padding-bottom: $grid-line-height;
+    padding-top: $grid-line-height * 2;
     position: relative;
 
     &:before {
@@ -81,7 +81,7 @@
         padding: ( $grid-line-height * $grid-line-height-multiplier ) $grid-gutter;
         width: 55%;
         float: right;
-        margin: ( $grid-line-height * 3 ) 0;
+        margin: ( $grid-line-height * 2 ) 0 ( $grid-line-height * 2.5 ) 0;
         box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
         position: relative;
         z-index: 1;
@@ -174,7 +174,7 @@ hr {
 
     .person {
 
-        padding: ( $grid-line-height * 2 ) 10%;
+        padding: ( $grid-line-height * 3 ) 10%;
         width: 50%;
         float: left;
 

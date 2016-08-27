@@ -668,7 +668,7 @@ table {
     clear: both; }
 
 .masthead {
-  padding-bottom: 1.5rem;
+  padding-top: 3rem;
   position: relative; }
   .masthead:before {
     content: '';
@@ -718,7 +718,7 @@ table {
     padding: 2.25rem 3rem;
     width: 55%;
     float: right;
-    margin: 4.5rem 0;
+    margin: 3rem 0 3.75rem 0;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 1; }
@@ -778,7 +778,7 @@ hr {
     display: block;
     clear: both; }
   .people .person {
-    padding: 3rem 10%;
+    padding: 4.5rem 10%;
     width: 50%;
     float: left; }
     .people .person:nth-child(2) {
