@@ -65,8 +65,16 @@
 
                 <p>This is fine, but <strong>what about users who want to do everything a developer can do</strong>?</p>
 
-                <p>This is where we come in. The week of lessons we've prepared will provide you with the knowledge and skills to do everything you want with WordPress yourself, without the need for paid help.</p>
-                
+                <p>This is where we come in. The week of lessons we've prepared will provide you with the knowledge and skills to do everything you want with WordPress yourself, without the need for paid help. You'll learn how to:</p>
+
+                <ul>
+                    <li>Set up your WordPress site how you want it</li>
+                    <li>Manage sites for clients</li>
+                    <li>Master speed and security (these are super important skills)</li>
+                    <li>Increase the value of your WordPress skills</li>
+                    <li>+ a ton more.</li>
+                </ul>
+
                 <p>Ready to get started? Enter your email below to learn the skills you need to <em>Become a WordPress Master</em>.</p>
                 
                 <p>And then a smaller signup box here?</p>
