@@ -59,13 +59,17 @@
 
             <div class="content">
 
-                <p><strong>MasterWP</strong> is a completely free seven-day email course. We’ll never share your personal information with third parties.</p>
+                <p><strong>This free email course will equip you to do everything you want to do with WordPress, yourself</strong>.</p>
 
                 <p>Most WordPress training courses focus on the basics: how to add pages, how to install themes. If you want to do anything more complicated they say "hire a developer".</p>
 
-                <p>This is fine, but how about bridging the gap between user and developer?</p>
+                <p>This is fine, but <strong>what about users who want to do everything a developer can do</strong>?</p>
 
-                <p><strong>We’ve made a course that teaches WordPress users how to <em>Master WordPress</em>.</strong></p>
+                <p>This is where we come in. The week of lessons we've prepared will provide you with the knowledge and skills to do everything you want with WordPress yourself, without the need for paid help.</p>
+                
+                <p>Ready to get started? Enter your email below to learn the skills you need to <em>Become a WordPress Master</em>.</p>
+                
+                <p>And then a smaller signup box here?</p>
 
             </div>
 
@@ -77,7 +81,7 @@
 
             <div class="content">
 
-                <p>In this free course you’ll learn the skills you need to do everything you want with WordPress yourself, without the need for paid help. The seven lessons will cover:</p>
+                <p>We'll deliver you seven lessons over seven days, right into your inbox. You'll learn:</p>
 
                 <ul class="lessons">
                     <li>
@@ -136,9 +140,9 @@
 
                     <img src="assets/images/profile-alex.jpg" alt="Alex Denning - WordPress power-user" />
 
-                    <p><strong>Hey, I’m Alex!</strong> I’m a WordPress power-user. I founded one of the most popular WordPress tutorial blogs and have written hundreds of WordPress tutorials for Smashing Magazine, WPShout, WPZOOM and more.</p>
+                    <p><strong>Hey, I’m Alex!</strong> I’m a WordPress power-user. I founded one of the most popular WordPress tutorial blogs and have written for Smashing Magazine, WPShout, WPZOOM and more.</p>
 
-                    <p>I’ve written support, documentation and video tutorials for WordPress companies and understand what users need to know. I’ll be leading the knowhow-based lessons so you can handle everything you need with WordPress yourself.</p>
+                    <p>I’ve created documentation and video tutorials for WordPress companies and understand what users need to know. I’ll be leading the knowhow-based lessons so you can handle everything you need with WordPress yourself.</p>
 
                 </div>
 
