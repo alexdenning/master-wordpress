@@ -7,6 +7,7 @@
 .masthead {
 
     padding-top: $grid-line-height * 2;
+    margin-bottom: $grid-line-height * 2;
     position: relative;
 
     &:before {
@@ -25,14 +26,13 @@
     .branding {
 
         text-align: center;
-        padding: ( $grid-line-height * 2 ) ( $grid-gutter );
-        z-index: 1;
+        padding: 0 ( $grid-gutter ) ( $grid-line-height * 2 ) ( $grid-gutter );
         position: relative;
 
         h1 {
 
             @include modular-scale( gamma );
-            margin-bottom: 0;
+            margin: 0;
             display: inline-block;
 
             span {
@@ -52,24 +52,15 @@
 
         }
 
-    }
+        p {
 
-    .container {
+            margin: 0;
 
-        position: relative;
-        @include clear;
+            &.sub {
 
-        &:before {
+                @include post-meta-data;
 
-            content: '';
-            top: 0;
-            left: 0;
-            width: 55%;
-            bottom: 0;
-            background: url( ../images/banner-background.jpg ) no-repeat;
-            background-size: cover;
-            position: absolute;
-            z-index: 0;
+            }
 
         }
 
@@ -79,12 +70,11 @@
 
         background: $canvas-white;
         padding: ( $grid-line-height * $grid-line-height-multiplier ) $grid-gutter;
-        width: 55%;
-        float: right;
-        margin: ( $grid-line-height * 2 ) 0 ( $grid-line-height * 2.5 ) 0;
-        box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
-        position: relative;
+        box-shadow: 0 0.5em 1em rgba(0,0,0,0.1);
         z-index: 1;
+        position: relative;
+        width: 60%;
+        margin: 0 auto;
 
         h2 {
 
