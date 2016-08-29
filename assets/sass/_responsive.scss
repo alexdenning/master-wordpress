@@ -67,6 +67,34 @@
 
     }
 
+    .intro {
+
+        .newsletter {
+
+            flex-direction: column;
+
+        }
+
+    }
+
+    .intro .newsletter,
+    .newsletter {
+
+        input {
+
+            margin: 0;
+
+        }
+
+        label,
+        input[type=submit] {
+
+            width: 100%;
+            margin-bottom: $grid-line-height / 2;
+
+        }
+
+    }
 }
 
 
