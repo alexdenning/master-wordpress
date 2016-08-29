@@ -76,10 +76,10 @@
                 </ul>
 
                 <p>Ready to get started? Enter your email below to learn the skills you need to <em>Become a WordPress Master</em>.</p>
-                
-                <p>And then a smaller signup box here?</p>
 
             </div>
+
+            <?php include( 'partials/newsletter.php' ); ?>
 
         </section>
 

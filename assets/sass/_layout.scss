@@ -128,24 +128,55 @@ hr {
 
 .intro {
 
+    .newsletter {
+
+        padding: $grid-line-height 10%;
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-between;
+
+        label,
+        input[type=submit] {
+
+            width: 31%;
+
+        }
+
+        input {
+
+            margin: 0;
+
+        }
+
+    }
+
 }
 
 .newsletter {
 
+    @include modular-scale( zeta );
+
     label {
 
-        margin-bottom: $grid-line-height * -1.7;
-        z-index: 10;
-        position: relative;
-        padding: 0 ( $grid-gutter / 4 );
-        width: 5em;
-        text-align: right;
+        span {
+
+            display: block;
+            z-index: 10;
+            position: relative;
+            padding: 0 ( $grid-gutter / 4 );
+            width: 5em;
+            text-align: right;
+            height: 0;
+            transform: translateY( $grid-line-height / 2 );
+
+        }
 
     }
 
     input[type=text],
     input[type=email] {
 
+        font-weight: normal;
         padding-left: 5em;
 
     }
