@@ -74,9 +74,9 @@
 
                 <p>Ready to get started? Enter your email below to learn the skills you need to <em>Become a WordPress Master</em>.</p>
 
-            </div>
+                <?php include( 'partials/newsletter.php' ); ?>
 
-            <?php include( 'partials/newsletter.php' ); ?>
+            </div>
 
         </section>
 
