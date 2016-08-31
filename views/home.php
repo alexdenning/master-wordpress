@@ -7,7 +7,7 @@
             <div class="container">
 
                 <div class="branding">
-                    <img src="assets/images/logo-mark.png" alt="MasterWP Logo" />
+                    <img src="<?php echo image_path( 'logo-mark.png' ); ?>" alt="MasterWP Logo" />
                     <h1>Master<span>WP</span></h1>
                 </div>
 

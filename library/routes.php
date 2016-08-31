@@ -8,3 +8,13 @@ Flight::route( '/', function() {
     );
 
 } );
+
+
+// Thanks
+Flight::route( '/thanks/', function() {
+
+    Flight::render(
+        'message.php'
+    );
+
+} );

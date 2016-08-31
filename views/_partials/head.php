@@ -11,8 +11,9 @@
 
         <title>Master WordPress</title>
 
+
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:300,700|Playfair+Display:400,700" />
-        <link rel="stylesheet" href="assets/css/styles.css" />
+        <link rel="stylesheet" href="<?php echo css_path( 'styles.css' ); ?>" />
 
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
