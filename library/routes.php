@@ -10,11 +10,21 @@ Flight::route( '/', function() {
 } );
 
 
-// Thanks
-Flight::route( '/thanks/', function() {
+// Nearly Done
+Flight::route( '/nearly-done/', function() {
 
     Flight::render(
-        'message.php'
+        'nearly-done.php'
+    );
+
+} );
+
+
+// Thank you
+Flight::route( '/thank-you/', function() {
+
+    Flight::render(
+        'thank-you.php'
     );
 
 } );
