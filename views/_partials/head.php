@@ -23,8 +23,12 @@
 
           ga('create', 'UA-55722-24', 'auto');
           ga('send', 'pageview');
-
         </script>
+
+
+        <link rel="icon" href="<?php echo image_path( 'favicon-32.png' ); ?>" sizes="32x32" />
+        <link rel="icon" href="<?php echo image_path( 'favicon-192.png' ); ?>" sizes="192x192" />
+        <link rel="apple-touch-icon-precomposed" href="<?php echo image_path( 'favicon-180.png' ); ?>" />
 
     </head>
 
