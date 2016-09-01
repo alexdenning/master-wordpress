@@ -1,16 +1,5 @@
 <?php include( '_partials/head.php' ); ?>
 
-    <body>
-
-        <header class="masthead">
-
-            <div class="container">
-
-                <div class="branding">
-                    <img src="<?php echo image_path( 'logo-mark.png' ); ?>" alt="MasterWP Logo" />
-                    <h1>Master<span>WP</span></h1>
-                </div>
-
                 <div class="banner">
 
                     <h2>A free seven-day email course to become a <strong>WordPress Master</strong></h2>
@@ -126,23 +115,5 @@
 
         </section>
 
-        <footer>
-
-            <div class="content">
-
-                <p>Still unsure about signing up? Become a WordPress Master is 100% free, there’s literally nothing to lose and you can unsubscribe at any time. Sign up and start the course immediately.</p>
-
-                <?php include( '_partials/newsletter.php' ); ?>
-
-            </div>
-
-            <div class="copyright">
-
-                &copy; 2016 MasterWP - design by <a href="https://prothemedesign.com" rel="nofollow">Pro Theme Design</a>
-
-            </div>
-
-        </footer>
-
-    </body>
-</html>
+<?php
+    include( '_partials/footer.php' );
