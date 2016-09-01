@@ -13,8 +13,6 @@
         <input type="email" name="EMAIL" id="email" placeholder="jo@masterwp.co" required />
     </label>
 
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bf5d11ade9be022f552b86e69_dd7ca5de89" tabindex="-1" value=""></div>
-
     <input type="submit" value="Get the course now" />
 
 </form>
