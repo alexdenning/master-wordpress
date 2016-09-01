@@ -10,6 +10,7 @@
         <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
 
         <title>Master WordPress - Level Up Your WordPress Knowledge</title>
+        <meta name="description" content="Take your WordPress skills to the next level with this free 7 day email course.">
 
         <!-- Site Stuff -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:300,700|Playfair+Display:400,700" />
