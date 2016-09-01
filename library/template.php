@@ -71,3 +71,100 @@ function get_base() {
     return rtrim( Flight::request()->base, '/' );
 
 }
+
+
+/**
+ * Include a view (as long as it exists)
+ *
+ * @param string $path      File in the views directory to include
+ * @param array  $variables Variables to make accessible to included file
+ */
+function site_include_view( $path, $variables = array() ) {
+
+    $path = site_view_path( $path );
+
+    if ( file_exists( $path ) ) {
+
+        // if variables are set then make them usable
+        if ( ! empty( $variables ) ) {
+
+            extract( $variables );
+
+        }
+
+        // include file
+        include( $path );
+
+    }
+
+}
+
+
+/**
+ * Get a file path relative to the view directory
+ *
+ * @param  string $path File path to retrieve
+ * @return string Completed file path
+ */
+function site_view_path( $path ) {
+
+    return Flight::get( 'flight.views.path' ) . '/' . $path;
+
+}
+
+
+/**
+ * Determine if we are on the specified page.
+ *
+ * @param  string  $page The url of the page we want to check.
+ * @return boolean true if the url is the one specified in page. False otherwise.
+ */
+function page_is( $page ) {
+
+    return ( $page === Flight::request()->url );
+
+}
+
+
+/**
+ * Output a twitter share link
+ *
+ * @param string [$message       = ''] Message to display in Twitter share link
+ */
+function twitter_share_link( $message = '' ) {
+
+    $args = array(
+        'text' => $message,
+        'url' => 'https://masterwp.co',
+        'related' => 'binarymoon,alexdenning',
+    );
+
+    $link = 'http://twitter.com/intent/tweet?';
+
+    echo $link . http_build_query( $args, '', '&amp;' );
+
+}
+
+
+/**
+ * Output a facebook share link
+ *
+ * @param string [$message       = ''] Message to display in Twitter share link
+ */
+function facebook_share_link( $message = '' ) {
+
+    $args = array(
+        'u' => 'https://masterwp.co',
+        't' => $message,
+    );
+
+    $link = 'http://www.facebook.com/sharer.php?';
+
+    echo $link . http_build_query( $args, '', '&amp;' );
+
+}
+
+
+
+// Default site title.
+site_title( 'Master WordPress' );
