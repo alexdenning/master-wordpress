@@ -115,5 +115,9 @@
 
         </section>
 
+        <div class="hello-bar">
+            MasterWP starts 12th September. <span>Don't miss out: sign up for free course now.</span>
+        </div>
+
 <?php
     include( '_partials/footer.php' );

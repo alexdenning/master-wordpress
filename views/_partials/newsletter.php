@@ -1,8 +1,6 @@
 
 <form action="//masterwp.us13.list-manage.com/subscribe/post?u=bf5d11ade9be022f552b86e69&amp;id=dd7ca5de89" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter" target="_blank" novalidate>
 
-    <p><strong>You'll get the first lesson in your inbox when the course starts on 12th September.</strong> <small>The course is free and never spam.</small></p>
-
     <label>
         <span>Name:</span>
         <input type="text" name="FNAME" id="name" placeholder="Jo" required />
@@ -16,4 +14,3 @@
     <input type="submit" value="Get the course now" />
 
 </form>
-
