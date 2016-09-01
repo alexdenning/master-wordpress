@@ -274,10 +274,10 @@ hr {
 footer {
 
     background: $canvas-grey-10;
-    padding-bottom: $grid-line-height * 3;
 
     .copyright {
 
+        padding: ( $grid-line-height * 2 ) 0;
         @include post-meta-data;
         text-align: center;
 
