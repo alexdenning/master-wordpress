@@ -9,12 +9,13 @@
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
 
-        <title>Master WordPress</title>
+        <title>Master WordPress - Level Up Your WordPress Knowledge</title>
 
-
+        <!-- Site Stuff -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:300,700|Playfair+Display:400,700" />
         <link rel="stylesheet" href="<?php echo css_path( 'styles.css' ); ?>" />
 
+        <!-- Website Analytics -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -25,10 +26,26 @@
           ga('send', 'pageview');
         </script>
 
-
+        <!-- Favicons -->
         <link rel="icon" href="<?php echo image_path( 'favicon-32.png' ); ?>" sizes="32x32" />
         <link rel="icon" href="<?php echo image_path( 'favicon-192.png' ); ?>" sizes="192x192" />
         <link rel="apple-touch-icon-precomposed" href="<?php echo image_path( 'favicon-180.png' ); ?>" />
+
+        <!-- Social Media Meta Tags -->
+        <meta itemprop="name" content="Master WordPress - Level Up Your WordPress Knowledge.">
+        <meta itemprop="description" content="Take your WordPress skills to the next level with this free 7 day email course.">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@prothemedesign">
+        <meta name="twitter:title" content="Master WordPress - Level Up Your WordPress Knowledge.">
+        <meta name="twitter:description" content="Take your WordPress skills to the next level with this free 7 day email course.">
+        <meta name="twitter:url" content="https://masterwp.co/">
+
+        <meta property="og:title" content="Pro Theme Design - Professional WordPress Themes">
+        <meta property="og:url" content="https://masterwp.co/">
+        <meta property="og:description" content="Take your WordPress skills to the next level with this free 7 day email course.">
+        <meta property="og:site_name" content="Master WordPress - Level Up Your WordPress Knowledge.">
+        <meta property="og:type" content="website"/>
 
     </head>
 
