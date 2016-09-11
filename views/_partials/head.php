@@ -10,7 +10,7 @@
         <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
 
         <title>Master WordPress - Level Up Your WordPress Knowledge</title>
-        <meta name="description" content="Take your WordPress skills to the next level with this free 7 day email course.">
+        <meta name="description" content="Take your WordPress skills to the next level with this free 7 day course.">
 
         <!-- Site Stuff -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:300,700|Playfair+Display:400,700" />
@@ -34,19 +34,20 @@
 
         <!-- Social Media Meta Tags -->
         <meta itemprop="name" content="Master WordPress - Level Up Your WordPress Knowledge.">
-        <meta itemprop="description" content="Take your WordPress skills to the next level with this free 7 day email course.">
+        <meta itemprop="description" content="Take your WordPress skills to the next level with this free 7 day course.">
 
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@prothemedesign">
         <meta name="twitter:title" content="Master WordPress - Level Up Your WordPress Knowledge.">
-        <meta name="twitter:description" content="Take your WordPress skills to the next level with this free 7 day email course.">
+        <meta name="twitter:description" content="Take your WordPress skills to the next level with this free 7 day course.">
         <meta name="twitter:url" content="https://masterwp.co/">
+        <meta name="twitter:image" content="https://masterwp.co<?php echo image_path( 'banner.png' ); ?>" />
 
-        <meta property="og:title" content="Pro Theme Design - Professional WordPress Themes">
+        <meta property="og:title" content="Master WordPress - Level Up Your WordPress Knowledge.">
         <meta property="og:url" content="https://masterwp.co/">
-        <meta property="og:description" content="Take your WordPress skills to the next level with this free 7 day email course.">
+        <meta property="og:description" content="Take your WordPress skills to the next level with this free 7 day course.">
         <meta property="og:site_name" content="Master WordPress - Level Up Your WordPress Knowledge.">
-        <meta property="og:type" content="website"/>
+        <meta property="og:image" content="https://masterwp.co<?php echo image_path( 'banner.png' ); ?>"/>
 
     </head>
 
