@@ -28,3 +28,14 @@ Flight::route( '/thank-you/', function() {
     );
 
 } );
+
+
+// Preorder
+Flight::route( '/preorder/', function() {
+
+    Flight::render(
+        'preorder.php'
+    );
+
+} );
+
