@@ -108,6 +108,12 @@
 
 }
 
+.button {
+
+    width: 100%;
+
+}
+
 hr {
 
     max-width: $grid-gutter;
@@ -175,10 +181,7 @@ hr {
 
 }
 
-.about-us {
-
-    padding-top: $grid-line-height * 2;
-    padding-bottom: $grid-line-height * 2;
+section {
 
     h2 {
 
@@ -186,6 +189,13 @@ hr {
         margin-bottom: $grid-line-height * 2;
 
     }
+
+}
+
+.about-us {
+
+    padding-top: $grid-line-height * 2;
+    padding-bottom: $grid-line-height * 2;
 
 }
 
@@ -285,6 +295,19 @@ hr {
 
     @include post-meta-data;
     opacity: 1;
+
+}
+
+.buy-now {
+
+    padding: $grid-line-height $grid-gutter;
+    background: $canvas-grey-5;
+
+    p {
+
+        text-align: center;
+
+    }
 
 }
 
