@@ -1,3 +1,9 @@
+a {
+
+    color: $canvas-blue;
+
+}
+
 .container {
 
     @include container;
@@ -9,6 +15,13 @@
     padding-top: $grid-line-height * 3.5;
     margin-bottom: $grid-line-height * 2;
     position: relative;
+
+    > * {
+
+        position: relative;
+        z-index: 1;
+
+    }
 
     &:before {
 
@@ -27,7 +40,6 @@
 
         text-align: center;
         padding: 0 ( $grid-gutter ) ( $grid-line-height * 2 ) ( $grid-gutter );
-        position: relative;
 
         h1 {
 
@@ -66,13 +78,18 @@
 
     }
 
+    .sub-header {
+
+        text-align: center;
+        padding-bottom: $grid-line-height * 2;
+
+    }
+
     .banner {
 
         background: $canvas-white;
         padding: ( $grid-line-height * $grid-line-height-multiplier ) $grid-gutter;
         box-shadow: 0 0.5em 1em rgba(0,0,0,0.1);
-        z-index: 1;
-        position: relative;
         width: 60%;
         margin: 0 auto;
 
@@ -199,6 +216,40 @@ section {
 
 }
 
+.modules {
+
+    padding: ( $grid-line-height * 3 ) 0;
+    position: relative;
+    column-count: 2;
+    @include clear;
+
+    svg {
+
+        margin: 0 0 ( $grid-line-height / 2 ) 0;
+
+    }
+
+    .module {
+
+        column-count: 1;
+        padding: 0 10% ( $grid-line-height * 3 ) 10%;
+
+    }
+
+    .read-now {
+
+        @include post-meta-data;
+        border-radius: $border-radius;
+        padding: 0.1em 0.5em;
+        opacity: 1;
+
+        background: $canvas-green;
+        color: $canvas-white;
+
+    }
+
+}
+
 .people {
 
     background: lighten( $canvas-color, 5% );
@@ -252,30 +303,92 @@ section {
 
 }
 
+svg {
+
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    margin-right: $grid-gutter / 2;
+    vertical-align: middle;
+    color: $canvas-red;
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+
+}
+
 .lessons {
 
     list-style-type: none;
     margin: 0;
     padding: 0;
 
-    svg {
-
-        display: inline-block;
-        width: 64px;
-        height: 64px;
-        margin-right: $grid-gutter / 2;
-        vertical-align: middle;
-        color: $canvas-red;
-        stroke-width: 1px;
-        stroke-linejoin: round;
-        stroke-linecap: round;
-
-    }
-
     li {
 
         clear: both;
         padding: ( $grid-line-height / 2 ) 0;
+
+    }
+
+}
+
+.description {
+
+    text-align: center;
+    @include modular-scale( epsilon );
+
+}
+
+.pricing {
+
+    padding: ( $grid-line-height * 2 ) 10%;
+    background: $canvas-grey-10;
+
+    .packages {
+
+        padding: ( $grid-line-height ) 0;
+        display: flex;
+
+    }
+
+    .package {
+
+        width: 50%;
+        margin: $grid-line-height 0;
+        padding: $grid-line-height ( $grid-gutter / 2 );
+        text-align: center;
+        background: $canvas-grey-5;
+        position: relative;
+
+        &.best {
+
+            background: $canvas-white;
+            margin: 0;
+            box-shadow: 0 0.5em 1em rgba(0,0,0,0.1);
+            z-index: 1;
+
+            h3 {
+
+                font-weight: bold;
+
+            }
+
+        }
+
+        ul {
+
+            margin: 0 0 ( $grid-line-height / 2 ) 0;
+            padding: 0;
+            list-style-type: none;
+
+        }
+
+        strike {
+
+            font-weight: normal;
+            color: $canvas-grey-30;
+
+        }
 
     }
 
