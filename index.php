@@ -1,6 +1,6 @@
 <?php
 
-define( 'DECACHE_CSS', 5 );
+define( 'DECACHE_CSS', 6 );
 
 require 'flight/Flight.php';
 require 'library/routes.php';
