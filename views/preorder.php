@@ -241,17 +241,17 @@
 
                 <dl>
 
-                    <dt>A question?</dt>
-                    <dd>An answer</dd>
+                    <dt>Will I always have access to the course or is it just for a limited time?</dt>
+                    <dd>You’ll always have access to the course. There’s no expiry date or time limit, and you can re-read and re-watch as much as you like at your own pace.</dd>
 
-                    <dt>A question?</dt>
-                    <dd>An answer</dd>
+                    <dt>How does the course work? Can I go through at my own pace?</dt>
+                    <dd>The course is always available and you can go through at your own pace. It’s not a time-limited workshop or fixed to any schedule, you’re free to go through the material at your leisure and convenience.</dd>
 
-                    <dt>A question?</dt>
-                    <dd>An answer</dd>
+                    <dt>I’m just starting out. Is the course for me?</dt>
+                    <dd>Yes! The course takes WordPress users to WordPress <em></em>masters</em>.<br/><br/>“WordPress users” means anyone who’s used WordPress before, whether it’s to publish posts, install a theme or make basic customizations. We’ll take you from there to being able to do everything you want with WordPress.<br/><br/>For very beginners we start the course with <em></em>WordPress crash-course</em> to very quickly get you familiar with WordPress.</dd>
 
-                    <dt>A question?</dt>
-                    <dd>An answer</dd>
+                    <dt>Got more questions?</dt>
+                    <dd>Get in touch! Any queries at all about the course, drop us an email and we’ll happily get back to you. Contact us <a href="mailto:hello@masterwp.co">hello@masterwp.co</a></dd>
 
                 </dl>
 
