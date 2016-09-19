@@ -9,6 +9,10 @@
 
                 <script src="https://gumroad.com/js/gumroad.js"></script>
 
+                <div class="iframe-wrapper banner">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NDLdT1SqkRA?showinfo=0&enablejsapi=1&rel=0&&theme=light" frameborder="0" allowfullscreen></iframe>
+                </div>
+
                 <div class="banner">
 
                     <h2>Finally, a course that teaches you to <strong>do anything you want with WordPress</strong></h2>
