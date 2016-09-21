@@ -254,6 +254,12 @@
                     <dt>I’m just starting out. Is the course for me?</dt>
                     <dd>Yes! The course takes WordPress users to WordPress <em></em>masters</em>.<br/><br/>“WordPress users” means anyone who’s used WordPress before, whether it’s to publish posts, install a theme or make basic customizations. We’ll take you from there to being able to do everything you want with WordPress.<br/><br/>For very beginners we start the course with <em></em>WordPress crash-course</em> to very quickly get you familiar with WordPress.</dd>
 
+                    <dt>This is a pre-order, so when will the full course be available?</dt>
+                    <dd>We'll get the course to you as fast as possible (but won't compromise quality to get it faster). We're expecting to release the course in two parts, with the first delivered within four weeks of pre-orders ending. You'll be emailed at the email you use for the purchase once the course is available.</dd>
+
+                    <dt>When will I be charged?</dt>
+                    <dd>You'll be charged for the course when it's released. We're using Gumroad to process payments, which may make a temporary $1 charge to verify your card after you place your pre-order.</dd>
+
                     <dt>Got more questions?</dt>
                     <dd>Get in touch! Any queries at all about the course, drop us an email and we’ll happily get back to you. Contact us <a href="mailto:hello@masterwp.co">hello@masterwp.co</a></dd>
 
