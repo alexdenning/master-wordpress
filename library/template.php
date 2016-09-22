@@ -32,6 +32,20 @@ function css_path( $path = '' ) {
 }
 
 
+
+/**
+ * Return the css path for the specified file
+ *
+ * @param  string [$path       = ''] CSS url to retrieve
+ * @return sring  Completed url
+ */
+function scripts_path( $path = '' ) {
+
+    return path( 'assets/scripts/' . $path . '?d=' . DECACHE_CSS );
+
+}
+
+
 /**
  * Return the image path for the specified file
  *
