@@ -16,6 +16,10 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:300,700|Playfair+Display:400,700" />
         <link rel="stylesheet" href="<?php echo css_path( 'styles.css' ); ?>" />
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://gumroad.com/js/gumroad.js"></script>
+        <script src="<?php echo scripts_path( 'main.js' ); ?>"></script>
+
         <!-- Website Analytics -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
