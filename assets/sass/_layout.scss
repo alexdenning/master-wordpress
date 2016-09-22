@@ -2,6 +2,12 @@ a {
 
     color: $canvas-blue;
 
+    &:hover {
+
+        text-decoration: none;
+
+    }
+
 }
 
 .container {
@@ -354,12 +360,14 @@ svg {
 
         padding: ( $grid-line-height ) 0;
         display: flex;
+        justify-content: center;
 
     }
 
     .package {
 
-        width: 50%;
+        width: 100%;
+        max-width: 22em;
         margin: $grid-line-height 0;
         padding: $grid-line-height ( $grid-gutter / 2 );
         text-align: center;
