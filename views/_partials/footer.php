@@ -18,7 +18,7 @@
 
             <div class="copyright">
 
-                &copy; 2016 MasterWP - design by <a href="https://prothemedesign.com" rel="nofollow">Pro Theme Design</a>
+                &copy; 2016 MasterWP - design by <a href="https://prothemedesign.com" rel="nofollow">Pro Theme Design</a> - <a href="<?php echo path( 'terms-and-conditions' ); ?>">Terms</a>
 
             </div>
 

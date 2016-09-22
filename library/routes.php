@@ -39,8 +39,17 @@ Flight::route( '/preorder/', function() {
 
 } );
 
+// Terms and Conditions.
+Flight::route( '/terms-and-conditions/', function() {
 
-// Preorder
+    Flight::render(
+        'terms.php'
+    );
+
+} );
+
+
+// Splash screen.
 Flight::route( '/splash/', function() {
 
     Flight::render(
