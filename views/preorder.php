@@ -79,10 +79,10 @@
 
                     <ul>
                         <li>Getting to grips with premium themes</li>
-                        <li>How to use premium theme support <span class="read-now">Read Now</span></li>
+                        <li><a href="">How to use premium theme support</a> <span class="read-now">Read Now</span></li>
                         <li>Customising your premium theme</li>
                         <li>Intro: making the changes you want (without a developer).</li>
-                        <li>Customization basics, helpful plugins to edit your theme. <span class="read-now">Read Now</span></li>
+                        <li><a href="">Customization basics, helpful plugins to edit your theme.</a> <span class="read-now">Read Now</span></li>
                         <li>Why you should use plugins rather than editing the theme.</li>
                         <li>CSS basics (colours, fonts etc) - and using Inspect element</li>
                         <li>Advanced changes with child themes.</li>
@@ -101,10 +101,10 @@
                         <li>Making your site fast</li>
                         <li>Getting the most out of your host</li>
                         <li>Make your site load really quickly</li>
-                        <li>Jetpack Photon and CDNs. <span class="read-now">Read Now</span></li>
+                        <li><a href="">Jetpack Photon and CDNs.</a> <span class="read-now">Read Now</span></li>
                         <li>Cloudflare - getting the basics right</li>
                         <li>Cloudflare - https and http2</li>
-                        <li>Security introduction: Updating WordPress, themes and plugins - how to automate the process. Why it’s so important. <span class="read-now">Read Now</span></li>
+                        <li><a href="">Security introduction: Updating WordPress, themes and plugins - how to automate the process. Why it’s so important.</a> <span class="read-now">Read Now</span></li>
                         <li>Hiding vulnerabilities.</li>
                         <li>Essential security plugins.</li>
                         <li>Essential backup plugins</li>
@@ -125,16 +125,9 @@
                         <li>Creating a custom shortcode</li>
                         <li>Using a Starter Theme (underscores?)</li>
                         <li>Using GenerateWP to make simple improvements</li>
-                        <li>REST API basics</li>
-                        <li>What is the REST API?</li>
-
-
+                        <li>The WordPress REST API and a simple example</li>
                         <li>Useful resources for learning more about developing for WordPress</li>
-                        <li>Working with clients</li>
-                        <li>White labelling</li>
-                        <li>Useful tools for bulk managing sites</li>
-                        <li>How to stop clients breaking their site</li>
-                        <li>Contracts (protecting yourself)</li>
+                        <li>Working with clients: White labelling, Useful tools for bulk managing sites, How to stop clients breaking their site, Contracts (protecting yourself)</li>
                     </ul>
 
                 </div>
@@ -149,8 +142,6 @@
                         <li>Wrong sized thumbnails with a new theme</li>
                         <li>A beginners guide to debugging WordPress problems</li>
                         <li>Keeping up to date with WordPress news (news resources)</li>
-                        <li>SEO?</li>
-                        <li>Other FAQs?</li>
                     </ul>
 
                 </div>
@@ -184,6 +175,7 @@
             <p class="description">Pre-order TODAY to <strong>save 20%</strong><br />Offer ends October 23rd!</p>
             <div class="packages">
 
+                <!--
                 <div class="package">
                     <h3>Lite</h3>
                     <ul>
@@ -197,6 +189,7 @@
                     <h4><strike>$90</strike> $70</h4>
                     <a class="button" href="https://gum.co/masterwp/preorder">Buy now!</a>
                 </div>
+                -->
 
                 <div class="package best">
                     <h3>Master</h3>
@@ -209,7 +202,7 @@
                         <li>feature 6</li>
                     </ul>
                     <h4><strike>$250</strike> $200</h4>
-                    <a class="button" href="https://gum.co/masterwp/preorder">Buy now!</a>
+                    <a class="button" href="https://gum.co/masterwp/preorder" target="_blank">Buy now!</a>
                 </div>
 
                 <div class="package">
@@ -223,7 +216,7 @@
                         <li>feature 6</li>
                     </ul>
                     <h4><strike>$750</strike> $500</h4>
-                    <a class="button" href="https://gum.co/masterwp/preorder">Buy now!</a>
+                    <a class="button" href="https://gum.co/masterwp/preorder" target="_blank">Buy now!</a>
                 </div>
 
             </div>
