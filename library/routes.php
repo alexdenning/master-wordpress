@@ -39,3 +39,14 @@ Flight::route( '/preorder/', function() {
 
 } );
 
+
+// Preorder
+Flight::route( '/splash/', function() {
+
+    Flight::render(
+        'splash.php'
+    );
+
+} );
+
+
