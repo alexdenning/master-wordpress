@@ -7,8 +7,6 @@
 
                 </div>
 
-                <script src="https://gumroad.com/js/gumroad.js"></script>
-
                 <div class="iframe-wrapper banner">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/NDLdT1SqkRA?showinfo=0&enablejsapi=1&rel=0&&theme=light" frameborder="0" allowfullscreen></iframe>
                 </div>
@@ -19,7 +17,7 @@
 
                     <p>A course for WordPress users, bloggers, creatives and web professionals to <strong>stop relying on developers</strong> and <strong>Master WordPress</strong>. Do anything you want, yourself.</p>
 
-                    <a class="button" href="https://gum.co/masterwp/preorder">Start Learning Today!</a>
+                    <a class="button scroll-to" href="#pricing">Start Learning Today!</a>
 
                 </div>
 
@@ -39,7 +37,7 @@
 
                 <p><strong>This course bridges the gap between users and developers</strong>.</p>
 
-                <a class="button" href="https://gum.co/masterwp/preorder">Start Learning Today!</a>
+                <a class="button scroll-to" href="#pricing">Start Learning Today!</a>
 
             </div>
 
@@ -179,7 +177,7 @@
 
         </section>
 
-        <section class="pricing">
+        <section class="pricing" id="pricing">
 
             <h2>Start Learning</h2>
 
