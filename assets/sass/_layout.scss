@@ -395,13 +395,6 @@ svg {
 
         }
 
-        strike {
-
-            font-weight: normal;
-            color: $canvas-grey-30;
-
-        }
-
     }
 
     .secure {
@@ -437,6 +430,20 @@ svg {
 
         @include post-meta-data();
         line-height: 1.1;
+
+    }
+
+    .price {
+
+        @include modular-scale( delta );
+
+        strike {
+
+            margin-right: 1em;
+            font-weight: normal;
+            color: $canvas-grey-40;
+
+        }
 
     }
 

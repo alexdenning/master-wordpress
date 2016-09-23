@@ -86,7 +86,7 @@
 
                     <?php include( 'assets/svg/settings.svg' ); ?>
 
-                    <h3><strong>Module 1:</strong> WordPress crash-course</h3>
+                    <h3><strong>Module 1:</strong> WordPress Crash-course</h3>
 
                     <ul>
                         <li>Get up to speed on basics</li>
@@ -94,8 +94,8 @@
                         <li>Installing plugins and themes</li>
                         <li>Advanced editor screen usage (shortcodes, HTML view)</li>
                         <li>Setting a static front page</li>
-                        <li>Using media (better stock photos; editing images).</li>
-                        <li>Advanced widget usage (using Jetpack to only display on certain pages).</li>
+                        <li>Using media (better stock photos; editing images)</li>
+                        <li>Advanced widget usage (using Jetpack to only display on certain pages)</li>
                     </ul>
 
                 </div>
@@ -104,15 +104,16 @@
 
                     <?php include( 'assets/svg/options.svg' ); ?>
 
-                    <h3><strong>Module 2:</strong> Using and customising themes</h3>
+                    <h3><strong>Module 2:</strong> Using and Customising Themes</h3>
 
                     <ul>
                         <li>Getting to grips with premium themes</li>
-                        <li><a href="">How to use premium theme support</a> <span class="read-now">Read Now</span></li>
+                        <li><a href="<?php echo path( 'downloads/masterwp-part-1-how-to-choose-themes.pdf' ); ?>">How to Choose Quality WordPress Themes</a> <span class="read-now">Free PDF</span></li>
+                        <li><a href="<?php echo path( 'downloads/masterwp-part-2-theme-support.pdf' ); ?>">How to use premium theme support</a> <span class="read-now">Free PDF</span></li>
                         <li>Customising your premium theme</li>
-                        <li>Intro: making the changes you want (without a developer).</li>
-                        <li><a href="">Customization basics, helpful plugins to edit your theme.</a> <span class="read-now">Read Now</span></li>
-                        <li>Why you should use plugins rather than editing the theme.</li>
+                        <li>Intro: making the changes you want (without a developer)</li>
+                        <li><a href="<?php echo path( 'downloads/masterwp-part-3-customization-basics.pdf' ); ?>">Customization basics, helpful plugins to edit your theme</a> <span class="read-now">Free PDF</span></li>
+                        <li>Why you should use plugins rather than editing the theme</li>
                         <li>CSS basics (colours, fonts etc) - and using Inspect element</li>
                         <li>Advanced changes with child themes.</li>
                         <li>Theme Customization services (like codeable.io) for those who don’t want to learn themselves</li>
@@ -129,14 +130,11 @@
                     <ul>
                         <li>Making your site fast</li>
                         <li>Getting the most out of your host</li>
-                        <li>Make your site load really quickly</li>
-                        <li><a href="">Jetpack Photon and CDNs.</a> <span class="read-now">Read Now</span></li>
-                        <li>Cloudflare - getting the basics right</li>
-                        <li>Cloudflare - https and http2</li>
-                        <li><a href="">Security introduction: Updating WordPress, themes and plugins - how to automate the process. Why it’s so important.</a> <span class="read-now">Read Now</span></li>
-                        <li>Hiding vulnerabilities.</li>
-                        <li>Essential security plugins.</li>
-                        <li>Essential backup plugins</li>
+                        <li><a href="<?php echo path( 'downloads/masterwp-part-4-load-quickly.pdf' ); ?>">Make your site load really quickly</a> <span class="read-now">Free PDF</span></li>
+                        <li><a href="<?php echo path( 'downloads/masterwp-part-5-photon-and-cdns.pdf' ); ?>">Jetpack Photon and CDNs</a> <span class="read-now">Free PDF</span></li>
+                        <li>Basic Cloudflare - getting started</li>
+                        <li>Advanced Cloudflare - https and http2</li>
+                        <li><a href="<?php echo path( 'downloads/masterwp-part-7-wordpress-security.pdf' ); ?>">Security introduction: Updating WordPress, themes and plugins - how to automate the process. Why it’s so important</a> <span class="read-now">Free PDF</span></li>
                     </ul>
 
                 </div>
@@ -152,11 +150,11 @@
                         <li>Using the customizer</li>
                         <li>Creating a custom widget</li>
                         <li>Creating a custom shortcode</li>
-                        <li>Using a Starter Theme (underscores?)</li>
-                        <li>Using GenerateWP to make simple improvements</li>
-                        <li>The WordPress REST API and a simple example</li>
+                        <li>Using a Starter Theme</li>
+                        <li>Using GenerateWP to extend your project</li>
+                        <li>The WordPress REST API</li>
                         <li>Useful resources for learning more about developing for WordPress</li>
-                        <li>Working with clients: White labelling, Useful tools for bulk managing sites, How to stop clients breaking their site, Contracts (protecting yourself)</li>
+                        <li>Working with clients: White labelling, Useful tools for bulk managing sites, How to stop clients breaking their site, and contracts</li>
                     </ul>
 
                 </div>
@@ -165,12 +163,13 @@
 
                     <?php include( 'assets/svg/info.svg' ); ?>
 
-                    <h3><strong>Bonus Lessons:</strong> Frequently troubling problems</h3>
+                    <h3><strong>Bonus Lessons:</strong> Frequently Troubling Problems</h3>
 
                     <ul>
                         <li>Wrong sized thumbnails with a new theme</li>
                         <li>A beginners guide to debugging WordPress problems</li>
-                        <li>Keeping up to date with WordPress news (news resources)</li>
+                        <li>Keeping up to date with WordPress news</li>
+                        <li>Contributing to Open Source Projects (with Git)</li>
                     </ul>
 
                 </div>
@@ -186,11 +185,11 @@
                 <p>As well as the full course, you'll receive these wonderful bonuses:</p>
 
                 <ul>
-                    <li><strong>36 teaching videos</strong> that accompany every single lesson in the course and every module introduction.</li>
-                    <li><strong>Bonus videos, articles and cheatsheets</strong> answering the most common questions related to Mastering WordPress and providing at-a-glance summaries.</li>
-                    <li><strong>Members-only Slack channel</strong> for asking questions and sharing your learning journey.</li>
+                    <li><strong>36 teaching videos</strong> that accompany every single lesson in the course and every module introduction</li>
+                    <li><strong>Bonus videos, articles and cheatsheets</strong> answering the most common questions related to Mastering WordPress and providing at-a-glance summaries</li>
+                    <li><strong>Members-only Slack channel</strong> for asking questions and sharing your learning journey</li>
                     <li>Downloads: full course in PDF and HTML formats, HD videos, cheatsheets, code snippets and more...</li>
-                    <li><strong>Lifetime access:</strong> take the course at your own pace and get all future updates free.</li>
+                    <li><strong>Lifetime access:</strong> take the course at your own pace and get all future updates free</li>
                 </ul>
 
             </div>
@@ -222,7 +221,7 @@
                             <li>All future updates delivered free</li>
                             <li>This is a pre-order: you'll be the first to get the course on its release</li>
                         </ul>
-                        <h4><strike>$249</strike> $199</h4>
+                        <h4 class="price"><strike>$249</strike> $199</h4>
                         <a class="button" href="https://gum.co/masterwp/preorder" target="_blank">Buy now!</a>
                     </div>
 
@@ -234,7 +233,7 @@
                             <li>Alex's WordPress tutorial cheat-sheet</li>
                             <li>2x 1hr one-on-one WordPress training Skype calls with Alex and Ben</li>
                         </ul>
-                        <h4><strike>$749</strike> $599</h4>
+                        <h4 class="price"><strike>$749</strike> $599</h4>
                         <a class="button" href="https://gum.co/masterwp/preorder" target="_blank">Buy now!</a>
                     </div>
 
