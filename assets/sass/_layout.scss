@@ -406,6 +406,21 @@ svg {
 
     }
 
+    .secure {
+
+        text-align: center;
+
+        svg {
+
+            height: 1.3em;
+            width: 1.3em;
+            stroke-width: 2px;
+            margin-right: 0.5em;
+            vertical-align: top;
+
+        }
+
+    }
 }
 
 .hello-bar {
