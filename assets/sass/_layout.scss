@@ -462,6 +462,13 @@ footer {
         padding: ( $grid-line-height * 2 ) 0;
         @include post-meta-data;
         text-align: center;
+        opacity: 0.6;
+
+        &:hover {
+
+            opacity: 1;
+
+        }
 
     }
 
