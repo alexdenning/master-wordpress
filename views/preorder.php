@@ -221,6 +221,9 @@
 
             </div>
 
+            <div class="secure">
+                <?php include( 'assets/svg/lock.svg' ); ?> Secure transaction through Gumroad
+            </div>
 
         </section>
 
