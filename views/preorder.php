@@ -8,7 +8,7 @@
                 </div>
 
                 <div class="iframe-wrapper banner">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NDLdT1SqkRA?showinfo=0&enablejsapi=1&rel=0&&theme=light" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9VmMNUVVx_c?showinfo=0&enablejsapi=1&rel=0&&theme=light" frameborder="0" allowfullscreen></iframe>
                 </div>
 
                 <div class="banner">
@@ -30,9 +30,9 @@
             <div class="content">
 
                 <p><strong>Finally, a course that teaches you to do anything you want with WordPress</strong>.</p>
-                
+
                 <p>Become a WordPress Master will take yuor WordPress skills to the next level. This is a course for WordPress users, bloggers, creatives and web professionals to stop relying on developers and Master WordPress.</p>
-                
+
                 <p>You'll be elevated from user to power user – with the skills to produce customized, fast and secure WordPress sites.</p>
 
                 <h3>Do everything a developer can do</h3>
@@ -42,29 +42,29 @@
                 <p>This is fine, but what about users who want to do everything a developer can do?</p>
 
                 <p><strong>This course bridges the gap between users and developers</strong>.</p>
-                
+
                 <h3>The complete course</h3>
-                
+
                 <p>Become a WordPress Master covers everything. Four modules, 36 lessons and 10+ hours of video tutorials take you through everything a WordPress power-user could and should want to do.</p>
-                
+
                 <p>The courses including a WordPress crash course, <strong>theme customization</strong>, extending WordPress with site speed and security and <strong>advanced WordPress</strong> including creating custom code, using the REST API and bulk-managing WordPress for clients.</p>
 
                 <p>Become a WordPress Master is designed to be easy to understand and easy to follow. You can take the course at your own pace and by the end you will be extremely capable of fully building, managing and customizing WordPress websites.</p>
-                
+
                 <h3>Leverage two decades of WordPress knowledge</h3>
-                
+
                 <p>Your teachers Alex and Ben have nearly two decades of WordPress experience between them and have helped thousands of customers use WordPress themes.</p>
-                
+
                 <p>Alex has written hundreds of WordPress tutorials and videos and Ben runs a leading WordPress theme shop – and made one of the most popular themes on WordPress.com.
-                
+
                 <p>They know exactly where pain-points are for WordPress users and how to help overcome these. You're in highly experienced hands.</p>
-                
+
                 <h3>Learn valuable WordPress skills</h3>
-                
+
                 <p>Whether you're building sites for yourself, for clients or your agency, you'll learn hugely valuable skills that allow you to do everything you need to do with WordPress.</p>
-                
+
                 <p>This is the course you've been waiting for.</p>
-                
+
                 <p>Ready to get going? <strong>Become a WordPress Master today.</strong></p>
 
                 <a class="button scroll-to" href="#pricing">Start Learning Now!</a>
@@ -199,56 +199,52 @@
 
         <section class="pricing" id="pricing">
 
-            <h2>Become a WordPress Master</h2>
+            <div class="container">
 
-            <p class="description">Pre-order TODAY to <strong>save 20%</strong><br />Offer expires September 30th!</p>
-            <div class="packages">
+                <span class="guarantee">
+                    <strong>30</strong> Days Money Back!
+                </span>
 
-                <!--
-                <div class="package">
-                    <h3>Lite</h3>
-                    <ul>
-                        <li>feature 1</li>
-                        <li>feature 2</li>
-                        <li>feature 3</li>
-                        <li>feature 4</li>
-                        <li>feature 5</li>
-                        <li>feature 6</li>
-                    </ul>
-                    <h4><strike>$90</strike> $70</h4>
-                    <a class="button" href="https://gum.co/masterwp/preorder">Buy now!</a>
+                <h2>Become a WordPress Master</h2>
+
+                <p class="description">Pre-order TODAY to <strong>save 20%</strong><br />Offer expires September 30th!</p>
+
+                <div class="packages">
+
+                    <div class="package best">
+                        <h3>Master</h3>
+                        <ul>
+                            <li>The full course in PDF and HTML formats</li>
+                            <li>35 HD video tutorials</li>
+                            <li>Bonus videos, articles and cheatsheets</li>
+                            <li>Members'-only Slack channel access</li>
+                            <li>Lifetime access to the course</li>
+                            <li>All future updates delivered free</li>
+                            <li>This is a pre-order: you'll be the first to get the course on its release</li>
+                        </ul>
+                        <h4><strike>$249</strike> $199</h4>
+                        <a class="button" href="https://gum.co/masterwp/preorder" target="_blank">Buy now!</a>
+                    </div>
+
+                    <div class="package">
+                        <h3>All In</h3>
+                        <ul>
+                            <li><strong>Everything in the Master package, plus...</strong></li>
+                            <li>Ben's premium theme development toolkit</li>
+                            <li>Alex's WordPress tutorial cheat-sheet</li>
+                            <li>2x 1hr one-on-one WordPress training Skype calls with Alex and Ben</li>
+                        </ul>
+                        <h4><strike>$749</strike> $599</h4>
+                        <a class="button" href="https://gum.co/masterwp/preorder" target="_blank">Buy now!</a>
+                    </div>
+
                 </div>
-                -->
 
-                <div class="package best">
-                    <h3>Master</h3>
-                    <ul>
-                        <li>The full course in PDF and HTML formats</li>
-                        <li>35 HD video tutorials</li>
-                        <li>Bonus videos, articles and cheatsheets</li>
-                        <li>Members'-only Slack channel access</li>
-                        <li>Lifetime access to the course</li>
-                        <li>All future updates delivered free</li>
-                        <li>This is a pre-order: you'll be the first to get the course on its release</li>
-                    </ul>
-                    <h4><strike>$249</strike> $199</h4>
-                    <a class="button" href="https://gum.co/masterwp/preorder" target="_blank">Buy now!</a>
-                </div>
-
-                <div class="package">
-                    <h3>All In</h3>
-                    <ul>
-                        <li><strong>Everything in the Master package, plus...</strong></li>
-                        <li>Ben's premium theme development toolkit</li>
-                        <li>Alex's WordPress tutorial cheat-sheet</li>
-                        <li>2x 1hr one-on-one WordPress training Skype calls with Alex and Ben</li>
-                    </ul>
-                    <h4><strike>$749</strike> $599</h4>
-                    <a class="button" href="https://gum.co/masterwp/preorder" target="_blank">Buy now!</a>
+                <div class="secure">
+                    <?php include( 'assets/svg/lock.svg' ); ?> Secure transaction through Gumroad
                 </div>
 
             </div>
-
 
         </section>
 

@@ -4,6 +4,7 @@
 @mixin container() {
 
     width: 100%;
+    position: relative;
     max-width: $grid-total-width;
     margin: 0 auto;
     @include clear;

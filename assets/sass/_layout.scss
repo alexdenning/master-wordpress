@@ -253,7 +253,6 @@ section {
         @include post-meta-data;
         border-radius: $border-radius;
         padding: 0.1em 0.5em;
-        opacity: 1;
 
         background: $canvas-green;
         color: $canvas-white;
@@ -367,7 +366,6 @@ svg {
     .package {
 
         width: 100%;
-        max-width: 22em;
         margin: $grid-line-height 0;
         padding: $grid-line-height ( $grid-gutter / 2 );
         text-align: center;
@@ -421,6 +419,27 @@ svg {
         }
 
     }
+
+    .guarantee {
+
+        background: $canvas-green;
+        display: block;
+        border-radius: 10em;
+        color: $canvas-white;
+        width: 8em;
+        text-align: center;
+        padding: 2em;
+        position: absolute;
+        top: -( $grid-line-height * 3 );
+        right: -( $grid-gutter / 2 );
+        transform: rotate( 10deg );
+        box-shadow: 0 0.5em 1em rgba(0,0,0,0.1);
+
+        @include post-meta-data();
+        line-height: 1.1;
+
+    }
+
 }
 
 .hello-bar {
@@ -436,7 +455,6 @@ svg {
     z-index: 999;
 
     @include post-meta-data;
-    opacity: 1;
 
 }
 
