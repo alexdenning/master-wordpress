@@ -7,17 +7,24 @@
 
                 </div>
 
-                <div class="iframe-wrapper banner">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9VmMNUVVx_c?showinfo=0&enablejsapi=1&rel=0&&theme=light" frameborder="0" allowfullscreen></iframe>
-                </div>
 
-                <div class="banner">
+                <div class="preorder">
 
-                    <h2>Finally, a course that teaches you to <strong>do anything you want with WordPress</strong></h2>
+                    <div class="iframe-wrapper banner">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9VmMNUVVx_c?showinfo=0&enablejsapi=1&rel=0&&theme=light" frameborder="0" allowfullscreen></iframe>
+                    </div>
 
-                    <p>A course for WordPress users, bloggers, creatives and web professionals to <strong>stop relying on developers</strong> and <strong>Master WordPress</strong>. Do anything you want, yourself.</p>
+                    <div class="info banner">
 
-                    <a class="button scroll-to" href="#pricing">Start Learning Today!</a>
+                        <ul class="large">
+                            <li>Use WordPress how you want it</li>
+                            <li>Stop Using Developers</li>
+                            <li>Become a WordPress Master</li>
+                        </ul>
+
+                        <a class="button scroll-to" href="#pricing">Start Learning Today!</a>
+
+                    </div>
 
                 </div>
 
