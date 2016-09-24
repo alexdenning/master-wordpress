@@ -6,7 +6,7 @@
 
                     <p>A course for WordPress users, bloggers, creatives and web professionals to <strong>stop relying on developers</strong> and <strong>Master WordPress</strong>. Do anything you want, yourself.</p>
 
-                    <?php include( '_partials/newsletter.php' ); ?>
+                    <?php include( '_partials/email-signup.php' ); ?>
 
                 </div>
 

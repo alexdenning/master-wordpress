@@ -10,6 +10,6 @@
         <input type="email" name="EMAIL" id="email" placeholder="jo@masterwp.co" required />
     </label>
 
-    <input type="submit" value="Sign up (Get an exclusive discount when we launch)" />
+    <input type="submit" value="Sign up and get an exclusive discount!" />
 
 </form>
