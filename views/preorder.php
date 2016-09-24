@@ -242,7 +242,7 @@
                             <li>2x 1hr one-on-one WordPress training Skype calls with Alex and Ben</li>
                         </ul>
                         <h4 class="price"><strike>$749</strike> $599</h4>
-                        <a class="button" href="https://gum.co/masterwp/preorder?wanted=true" target="_blank" data-gumroad-single-product="true">Buy now!</a>
+                        <a class="button" href="https://gum.co/masterwp-all-in/preorder?wanted=true" target="_blank" data-gumroad-single-product="true">Buy now!</a>
                     </div>
 
                 </div>
