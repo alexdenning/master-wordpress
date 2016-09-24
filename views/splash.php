@@ -6,8 +6,6 @@
 
                     <p>A course for WordPress users, bloggers, creatives and web professionals to <strong>stop relying on developers</strong> and <strong>Master WordPress</strong>. Do anything you want, yourself.</p>
 
-                    <h3>Get an exclusive discount when we launch!</h3>
-
                     <?php include( '_partials/newsletter.php' ); ?>
 
                 </div>
