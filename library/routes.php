@@ -3,8 +3,18 @@
 // Home
 Flight::route( '/', function() {
 
+    $template = 'splash.php';
+
+    $date_now = time();
+    $date_start = strtotime( '28th September 2016 4pm' );
+    $date_end = strtotime( '30th September 2016 11pm' );
+
+    if ( $date_now > $date_start && $date_now < $date_end ) {
+        $template = 'preorder.php';
+    }
+
     Flight::render(
-        'splash.php'
+        $template
     );
 
 } );
