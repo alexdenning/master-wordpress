@@ -4,7 +4,7 @@
 Flight::route( '/', function() {
 
     Flight::render(
-        'home.php'
+        'splash.php'
     );
 
 } );
