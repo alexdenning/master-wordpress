@@ -17,8 +17,8 @@
                     <div class="info banner">
 
                         <ul class="large">
-                            <li>Use WordPress how you want it</li>
-                            <li>Stop Using Developers</li>
+                            <li>Use WordPress however you want</li>
+                            <li>Stop relying on developers</li>
                             <li>Become a WordPress Master</li>
                         </ul>
 
@@ -38,7 +38,7 @@
 
                 <p><strong>Finally, a course that teaches you to do anything you want with WordPress</strong>.</p>
 
-                <p>Become a WordPress Master will take yuor WordPress skills to the next level. This is a course for WordPress users, bloggers, creatives and web professionals to stop relying on developers and Master WordPress.</p>
+                <p>Become a WordPress Master will take your WordPress skills to the next level. This is a course for WordPress users, bloggers, creatives and web professionals to stop relying on developers and Master WordPress.</p>
 
                 <p>You'll be elevated from user to power user – with the skills to produce customized, fast and secure WordPress sites.</p>
 
@@ -54,7 +54,7 @@
 
                 <p>Become a WordPress Master covers everything. Four modules, 36 lessons and 10+ hours of video tutorials take you through everything a WordPress power-user could and should want to do.</p>
 
-                <p>The courses including a WordPress crash course, <strong>theme customization</strong>, extending WordPress with site speed and security and <strong>advanced WordPress</strong> including creating custom code, using the REST API and bulk-managing WordPress for clients.</p>
+                <p>The courses including a WordPress crash course, <strong>theme customization</strong>, extending WordPress with speed and security and <strong>advanced WordPress</strong> including creating custom code, using the REST API and bulk-managing WordPress for clients.</p>
 
                 <p>Become a WordPress Master is designed to be easy to understand and easy to follow. You can take the course at your own pace and by the end you will be extremely capable of fully building, managing and customizing WordPress websites.</p>
 
@@ -85,7 +85,7 @@
 
             <h2>The Course</h2>
 
-            <p class="description">Over <strong>4 modules</strong> and <strong>36 lessons</strong> with <strong>20+ hours of video content</strong>, you'll learn:</p>
+            <p class="description">Over <strong>4 modules</strong> and <strong>32 lessons</strong> with <strong>10+ hours of video content</strong>, you'll learn:</p>
 
             <div class="modules">
 
@@ -192,7 +192,7 @@
                 <p>As well as the full course, you'll receive these wonderful bonuses:</p>
 
                 <ul>
-                    <li><strong>36 teaching videos</strong> that accompany every single lesson in the course and every module introduction</li>
+                    <li><strong>32 teaching videos</strong> that accompany every single lesson in the course and every module introduction</li>
                     <li><strong>Bonus videos, articles and cheatsheets</strong> answering the most common questions related to Mastering WordPress and providing at-a-glance summaries</li>
                     <li><strong>Members-only Slack channel</strong> for asking questions and sharing your learning journey</li>
                     <li>Downloads: full course in PDF and HTML formats, HD videos, cheatsheets, code snippets and more...</li>
@@ -221,7 +221,7 @@
                         <h3>Master</h3>
                         <ul>
                             <li>The full course in PDF and HTML formats</li>
-                            <li>35 HD video tutorials</li>
+                            <li>32 HD video tutorials</li>
                             <li>Bonus videos, articles and cheatsheets</li>
                             <li>Members'-only Slack channel access</li>
                             <li>Lifetime access to the course</li>
@@ -237,9 +237,9 @@
                         <h3>All In</h3>
                         <ul>
                             <li><strong>Everything in the Master package, plus...</strong></li>
-                            <li>Ben's premium theme development toolkit</li>
+                            <li>Premium theme of your choice from Ben's ProThemeDesign</li>
                             <li>Alex's WordPress tutorial cheat-sheet</li>
-                            <li>2x 1hr one-on-one WordPress training Skype calls with Alex and Ben</li>
+                            <li>1hr one-on-one WordPress Q&amp;A training Skype calls with Alex and Ben (nearly two decades of WordPress knowledge at your disposal)</li>
                         </ul>
                         <h4 class="price"><strike>$749</strike> $599</h4>
                         <a class="button" href="https://gum.co/fGeVw/preorder/?wanted=true" target="_blank" data-gumroad-single-product="true">Buy now!</a>
@@ -248,7 +248,7 @@
                 </div>
 
                 <div class="secure">
-                    <?php include( 'assets/svg/lock.svg' ); ?> Secure transaction through Gumroad
+                    <?php include( 'assets/svg/lock.svg' ); ?> Secure transaction through Gumroad<br/>30 day money-back guarantee. Become a WordPress Master represents nearly two decade of WordPress experience in one course. We're confident you'll love it, but if you're not delighted with your purchase email us within 30 days and we'll be happy to issue a full refund, no questions asked.
                 </div>
 
             </div>
