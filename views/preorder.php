@@ -293,7 +293,7 @@
 
 
         <div class="hello-bar">
-            Preorder before October 23rd and save 20%!
+            Preorder before October 30th and save 20%!
         </div>
 
 <?php
