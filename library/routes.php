@@ -5,9 +5,11 @@ Flight::route( '/', function() {
 
     $template = 'splash.php';
 
-    $date_now = time();
-    $date_start = strtotime( '28th September 2016 4pm' );
-    $date_end = strtotime( '30th September 2016 11pm' );
+    $date_now = (int) gmdate( 'U' );
+
+    // +3 hours for server time offset.
+    $date_start = strtotime( '28th September 2016 6pm GMT', $date_now ); // 3pm GMT
+    $date_end = strtotime( '1st October 2016 2am GMT', $date_now ); // 10pm GMT
 
     if ( $date_now > $date_start && $date_now < $date_end ) {
         $template = 'preorder.php';
