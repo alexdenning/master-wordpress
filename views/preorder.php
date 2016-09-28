@@ -248,7 +248,9 @@
                 </div>
 
                 <div class="secure">
-                    <?php include( 'assets/svg/lock.svg' ); ?> Secure transaction through Gumroad<br/>30 day money-back guarantee. Become a WordPress Master represents nearly two decade of WordPress experience in one course. We're confident you'll love it, but if you're not delighted with your purchase email us within 30 days and we'll be happy to issue a full refund, no questions asked.
+                    <p><?php include( 'assets/svg/lock.svg' ); ?> Secure transaction through Gumroad</p>
+                    <p>30 day money-back guarantee. Become a WordPress Master represents nearly two decade of WordPress experience in one course. We're confident you'll love it, but if you're not delighted with your purchase email us within 30 days and we'll be happy to issue a full refund, no questions asked.</p>
+                    <p><small>Price exclusive of sales and value-added taxes.</small></p>
                 </div>
 
             </div>
