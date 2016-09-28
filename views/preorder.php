@@ -95,7 +95,7 @@
 
                     <h3><strong>Module 1:</strong> WordPress Crash-course</h3>
 
-                    <ul>
+                    <ol>
                         <li>Get up to speed on basics</li>
                         <li>Know your way around the editor</li>
                         <li>Installing plugins and themes</li>
@@ -103,7 +103,7 @@
                         <li>Setting a static front page</li>
                         <li>Using media (better stock photos; editing images)</li>
                         <li>Advanced widget usage (using Jetpack to only display on certain pages)</li>
-                    </ul>
+                    </ol>
 
                 </div>
 
@@ -113,7 +113,7 @@
 
                     <h3><strong>Module 2:</strong> Using and Customising Themes</h3>
 
-                    <ul>
+                    <ol start="8">
                         <li>Getting to grips with premium themes</li>
                         <li><a href="<?php echo path( 'downloads/masterwp-part-1-how-to-choose-themes.pdf' ); ?>">How to Choose Quality WordPress Themes</a> <span class="read-now">Free PDF</span></li>
                         <li><a href="<?php echo path( 'downloads/masterwp-part-2-theme-support.pdf' ); ?>">How to use premium theme support</a> <span class="read-now">Free PDF</span></li>
@@ -124,7 +124,7 @@
                         <li>CSS basics (colours, fonts etc) - and using Inspect element</li>
                         <li>Advanced changes with child themes.</li>
                         <li>Theme Customization services (like codeable.io) for those who don’t want to learn themselves</li>
-                    </ul>
+                    </ol>
 
                 </div>
 
@@ -134,7 +134,7 @@
 
                     <h3><strong>Module 3:</strong> Extending WordPress</h3>
 
-                    <ul>
+                    <ol start="18">
                         <li>Making your site fast</li>
                         <li>Getting the most out of your host</li>
                         <li><a href="<?php echo path( 'downloads/masterwp-part-4-load-quickly.pdf' ); ?>">Make your site load really quickly</a> <span class="read-now">Free PDF</span></li>
@@ -142,7 +142,7 @@
                         <li>Basic Cloudflare - getting started</li>
                         <li>Advanced Cloudflare - https and http2</li>
                         <li><a href="<?php echo path( 'downloads/masterwp-part-7-wordpress-security.pdf' ); ?>">Security introduction: Updating WordPress, themes and plugins - how to automate the process. Why it’s so important</a> <span class="read-now">Free PDF</span></li>
-                    </ul>
+                    </ol>
 
                 </div>
 
@@ -152,7 +152,7 @@
 
                     <h3><strong>Module 4:</strong> Advanced WordPress</h3>
 
-                    <ul>
+                    <ol start="25">
                         <li>Advanced WordPress</li>
                         <li>Using the customizer</li>
                         <li>Creating a custom widget</li>
@@ -162,7 +162,7 @@
                         <li>The WordPress REST API</li>
                         <li>Useful resources for learning more about developing for WordPress</li>
                         <li>Working with clients: White labelling, Useful tools for bulk managing sites, How to stop clients breaking their site, and contracts</li>
-                    </ul>
+                    </ol>
 
                 </div>
 
@@ -172,12 +172,12 @@
 
                     <h3><strong>Bonus Lessons:</strong> Frequently Troubling Problems</h3>
 
-                    <ul>
+                    <ol start="34">
                         <li>Wrong sized thumbnails with a new theme</li>
                         <li>A beginners guide to debugging WordPress problems</li>
                         <li>Keeping up to date with WordPress news</li>
                         <li>Contributing to Open Source Projects (with Git)</li>
-                    </ul>
+                    </ol>
 
                 </div>
 
@@ -295,7 +295,7 @@
 
 
         <div class="hello-bar">
-            Preorder before October 30th and save 20%!
+            Preorder before September 30th and save 20%!
         </div>
 
 <?php
