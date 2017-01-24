@@ -2,11 +2,12 @@
 
 				<div class="banner">
 
-					<h2>A newsletter for WordPress Masters</h2>
+					<h2>An email newsletter filled with goodness for WordPress professionals, to look forward to.</h2>
 
-					<p>MasterWP Weekly is a brief curated email newsletter sent every Wednesday. It contains a collection links that will be interesting to anyone involved in WordPress. Whether it's a WordPress article, or a useful tool - there will be something to improve your working life.</p>
-
-					<h3>Sign up now to join <em>397</em> other subscribers!</h3>
+					<p>MasterWP Weekly is a brief email newsletter sent every Wednesday, featuring a collection of apps, tools and links that will make life better for WordPress professionals.</p>
+					<p>No affiliates, no fluff, just the good stuff.</p>
+					
+					<h3>Sign up now to join <strong>397</strong> other subscribers!</h3>
 					<?php include( '_partials/email-signup.php' ); ?>
 
 				</div>
