@@ -12,4 +12,6 @@
 
 	<input type="submit" value="Subscribe" />
 
+	<small>No spam, ever. Unsubscribe any time.</small>
+
 </form>
