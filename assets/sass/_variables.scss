@@ -64,23 +64,25 @@ $grid-line-height-multiplier: 1.5;
 
 // default font sizes
 $font-sizes: (
-    // giga: ( size: 6.25rem, height: 1 ),
-    // mega: ( size: 5rem, height: 1.25 ),
-    // alpha: ( size: 4rem, height: 1.25 ),
-    // beta: ( size: 3.25rem, height: 1.25 ),
-    // gamma: ( size: 2.5rem, height: 1.25 ),
-    // delta: ( size: 1.75rem, height: 1.5 ),
-    // epsilon: ( size: 1.25rem, height: 1.5 ),
-    // zeta: ( size: 2rem, height: 1.75 ),
-    // eta: ( size: 0.75rem, height: 1.75 ),
-    // micro: ( size: 0.5rem, height: 1.75 ),
+	// giga: ( size: 6.25rem, height: 1 ),
+	// mega: ( size: 5rem, height: 1.25 ),
+	// alpha: ( size: 4rem, height: 1.25 ),
+	// beta: ( size: 3.25rem, height: 1.25 ),
+	// gamma: ( size: 2.5rem, height: 1.25 ),
+	// delta: ( size: 1.75rem, height: 1.5 ),
+	// epsilon: ( size: 1.25rem, height: 1.5 ),
+	// zeta: ( size: 2rem, height: 1.75 ),
+	// eta: ( size: 0.75rem, height: 1.75 ),
+	// micro: ( size: 0.5rem, height: 1.75 ),
 );
 
 // z-index layer positions
 $layer: (
-    base: 1,
-    showcase_nav: 50,
-    infinite_footer: 50,
-    menu_dropdown: 100,
-    top: 100000
+	base: 1,
+	showcase_nav: 50,
+	infinite_footer: 50,
+	menu_dropdown: 100,
+	top: 100000
 );
+
+$decache: 1;
