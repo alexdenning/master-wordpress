@@ -38,6 +38,7 @@ a {
 		right: 0;
 		height: 70%;
 		background: $canvas-color url( ../images/masthead.png ) top center no-repeat;
+		background-size: contain;
 		z-index: 0;
 
 	}
