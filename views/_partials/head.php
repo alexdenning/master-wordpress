@@ -64,5 +64,5 @@
 				<div class="branding">
 					<!-- <img src="<?php echo image_path( 'logo-mark.png' ); ?>" alt="MasterWP Logo" /> -->
 					<h1>Master<span>WP</span> Weekly</h1>
-					<h2>A curated newsletter for WordPress professionals</h2>
+					<h2>A concise and carefully curated email to enjoy every week.</h2>
 				</div>
