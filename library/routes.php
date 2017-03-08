@@ -21,6 +21,17 @@ Flight::route( '/', function() {
 
 } );
 
+// Home
+Flight::route( '/newsletter/', function() {
+
+	$template = 'weekly.php';
+
+	Flight::render(
+		$template
+	);
+
+} );
+
 
 // Nearly Done
 Flight::route( '/nearly-done/', function() {
